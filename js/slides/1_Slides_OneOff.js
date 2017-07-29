@@ -13,7 +13,7 @@ SLIDES.push({
 		// Words on top & bottom
 		self.add({
 			id:"topWords", type:"TextBox", text_id:"oneoff_0_top",
-			x:130, y:10, width:700, height:100, align:"center"
+			x:130, y:10, width:700, height:100, align:"center", size: "90%"
 		});
 		self.add({
 			id:"btmWords", type:"TextBox", text_id:"oneoff_0_btm",

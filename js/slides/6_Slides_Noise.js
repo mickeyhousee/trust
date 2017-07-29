@@ -408,7 +408,7 @@ SLIDES.push({
 					words += " ";
 					words += Words.get("noise_evo_4_2");
 					self.add({
-						id:"text_next", type:"TextBox",
+						id:"text_next", type:"TextBox",size: "90%",
 						x:510, y:116, width:450,
 						text: words
 					});

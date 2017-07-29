@@ -18,6 +18,7 @@ function Button(config){
 	button.className = "object";
 	button.classList.add("button");
 	if(config.size) button.setAttribute("size", config.size);
+	if(config.fontSize) button.style.fontSize = config.fontSize;
 	self.dom = button;
 
 	// TOOLTIP?

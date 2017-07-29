@@ -280,7 +280,7 @@ SLIDES.push({
 		// Words
 		self.add({
 			id:"text", type:"TextBox",
-			x:0, y:30, width:450, height:500,
+			x:0, y:30, width:450, height:500, size: "90%",
 			text_id:"distrust_5"
 		});
 		_hide(o.text); _fadeIn(o.text, 100);
