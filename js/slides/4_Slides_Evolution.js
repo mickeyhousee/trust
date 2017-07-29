@@ -273,7 +273,7 @@ SLIDES.push({
 			// Text followup (hidden)
 			self.add({
 				id:"text2", type:"TextBox",
-				x:510, y:180, width:450, height:500,
+				x:510, y:180, width:450, height:500, size: "90%",
 				text_id:"evo_10_followup"
 			});
 			_hide(o.text2); _fadeIn(o.text2, 400);
